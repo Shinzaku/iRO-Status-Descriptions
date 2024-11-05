@@ -21,6 +21,8 @@ Increased/reduced [stat name]
 
 This is to ensure quick and standard readability to know when a skill is affected, vs a stat, and consistency in regards to how it is affected. For statuses that have a static effect (certain consumables), the description may have the amounts added in. Otherwise, generic text will be used as those values can vary depending on consumable, skill level, etc.
 
+New lines will be carried over and indented if the sentence seems too long 
+
 ![status-goal](https://github.com/user-attachments/assets/b642f79c-b9e7-4d1b-b26d-5290ed29504d)
 
 **
