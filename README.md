@@ -11,6 +11,14 @@ Standardized to:
 - Timer
 - Description
 
+For descriptions, a particular order for statuses that affect skills will be used
+[Skill Name] damage/effect increased/reduced
+
+For status that pertain to stats (STR, DEX, etc)
+Increased/decreased [stat name]
+
+This is to ensure quick and standard readability to know when a skill is affected, vs a stat, and consistency in regards to how it is affected
+
 ![status-goal](https://github.com/user-attachments/assets/b642f79c-b9e7-4d1b-b26d-5290ed29504d)
 
 **
