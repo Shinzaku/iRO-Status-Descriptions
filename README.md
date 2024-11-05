@@ -12,9 +12,11 @@ Standardized to:
 - Description
 
 For descriptions, a particular order for statuses that affect skills will be used
+
 [Skill Name] damage/effect increased/reduced
 
 For status that pertain to stats (STR, DEX, etc)
+
 Increased/decreased [stat name]
 
 This is to ensure quick and standard readability to know when a skill is affected, vs a stat, and consistency in regards to how it is affected
