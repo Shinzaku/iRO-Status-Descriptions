@@ -13,11 +13,7 @@ Standardized to:
 
 For descriptions, a particular order for statuses that affect skills will be used
 
-[Skill Name] damage/effect increased/reduced
-
-For status that pertain to stats (STR, DEX, etc)
-
-Increased/reduced [stat name]
+[Skill Name/Stat] damage/effect increased/reduced
 
 This is to ensure quick and standard readability to know when a skill is affected, vs a stat, and consistency in regards to how it is affected. For statuses that have a static effect (certain consumables), the description may have the amounts added in. Otherwise, generic text will be used as those values can vary depending on consumable, skill level, etc.
 
