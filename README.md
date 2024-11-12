@@ -1,6 +1,6 @@
 # iRO-Status-Descriptions
 
-In iRO today, there are a number of statuses that are either inconsistent in formatting, missing a description, or have wrong information.
+In iRO today, there are a number of statuses that are either inconsistent in formatting, missing a description or title, or have wrong information.
 Example:
 
 ![status-no-title](https://github.com/user-attachments/assets/f4bb2d2c-310d-4bed-a6d1-08252e2113f4)
