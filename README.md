@@ -11,7 +11,7 @@ Standardized to:
 - Timer
 - Description
 
-For descriptions, a particular order for statuses that affect skills will be used
+For descriptions, a particular order will be attempted:
 
 [Skill Name/Stat] damage/effect increased/reduced
 
