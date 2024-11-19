@@ -493,6 +493,7 @@ StateIconImgList = {
 		[EFST_IDs.EFST_STRONG_PROTECTION_OPTION] = "needle_of_paralyze.tga",
 		[EFST_IDs.EFST_DEEP_POISONING_OPTION] = "needle_of_paralyze.tga",
 		[EFST_IDs.EFST_POISON_SHIELD_OPTION] = "needle_of_paralyze.tga",
-		[EFST_IDs.EFST_ELEMENTAL_VEIL] = "EFST_SHADOW_CLOCK.tga"
+		[EFST_IDs.EFST_ELEMENTAL_VEIL] = "EFST_SHADOW_CLOCK.tga",
+		[EFST_IDs.EFST_SPELLFIST] = "¸àÅ»Æ÷¼Ç.tga"
 	}
 }

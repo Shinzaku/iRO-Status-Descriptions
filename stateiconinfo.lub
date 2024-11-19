@@ -330,7 +330,7 @@ StateIconList[EFST_IDs.EFST_HANDICAPSTATE_LIGHTNINGSTRIKE] = {
 		{ "%s", COLOR_TIME },
 		{ "Armor property set to Wind" },
 		{ "Cannot move, use items, or use skills" },
-		{ "Earth property damage resistance decreased" },
+		{ "Earth property resistance decreased" },
 		{ "Removed when taking damage" }
 	}
 }
@@ -455,7 +455,7 @@ StateIconList[EFST_IDs.EFST_CLIMAX_BLOOM] = {
 	descript = {
 		{ "All Bloom", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "Fire property damage resistance decreased" }
+		{ "Fire property resistance decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CLIMAX_CRYIMP] = {
@@ -466,7 +466,7 @@ StateIconList[EFST_IDs.EFST_CLIMAX_CRYIMP] = {
 		{ "%s", COLOR_TIME },
 		{ "DEF +300" },
 		{ "MDEF +100" },
-		{ "Water property damage resistance increased" },
+		{ "Water property resistance increased" },
 		{ "Water property magic damage increased" }
 	}
 }
@@ -476,7 +476,7 @@ StateIconList[EFST_IDs.EFST_CLIMAX_EARTH] = {
 	descript = {
 		{ "Violent Quake", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "Earth property damage resistance decreased" }
+		{ "Earth property resistance decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CLIMAX] = {
@@ -800,7 +800,7 @@ StateIconList[EFST_IDs.EFST_MANU_DEF] = {
 		{ "Manuk's Will", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Decreased physical and magical damage" },
-		{ " received from the monsters in Manuk field" }
+		{ " taken from the monsters in Manuk field" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ENERVATION] = {
@@ -1682,7 +1682,7 @@ StateIconList[EFST_IDs.EFST_PROVIDENCE] = {
 		{ "Resistant Souls", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Demon race resistance increased" },
-		{ "Holy property damage resistance increased" }
+		{ "Holy property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FIGHTINGSPIRIT] = {
@@ -2019,7 +2019,7 @@ StateIconList[EFST_IDs.EFST_DEEP_SLEEP] = {
 		{ "Deep Sleep", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
 		{ "Chat disabled" },
-		{ "Next attack received will be amplified by 1.5x" },
+		{ "Next attack taken will be amplified by 1.5x" },
 		{ "Recovering 2% of Max HP and Max SP every second" }
 	}
 }
@@ -2058,7 +2058,7 @@ StateIconList[EFST_IDs.EFST_DEFENDER] = {
 	descript = {
 		{ "Defending Aura", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Received long ranged physical damage decreased" },
+		{ "Ranged physical damage taken decreased" },
 		{ "Movement Speed decreased" },
 		{ "ASPD decreased" }
 	}
@@ -2686,7 +2686,7 @@ StateIconList[EFST_IDs.EFST_VITALITYACTIVATION] = {
 		{ "Isia Runestone: Vitality Activation", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "HP Recovery increased" },
-		{ "Received Reflected damage decreased" }
+		{ "Reflected damage taken decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_STONEHARDSKIN] = {
@@ -2873,7 +2873,7 @@ StateIconList[EFST_IDs.EFST_FROSTMISTY] = {
 		{ "%s", COLOR_TIME },
 		{ "Hard DEF, Movement Speed, and ASPD -30%" },
 		{ "Fixed Cast Time +50%" },
-		{ "Received damage from Jack Frost increased"}
+		{ "Damage taken from Jack Frost increased"}
 	}
 }
 StateIconList[EFST_IDs.EFST_COLD] = {
@@ -3011,7 +3011,7 @@ StateIconList[EFST_IDs.EFST_POPECOOKIE] = {
 		{ "Pope Cookie", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "ATK and MATK +3%" },
-		{ "All property damage resistance +3%" }
+		{ "All property resistance +3%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_VITALIZE_POTION] = {
@@ -4324,7 +4324,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_NOTHING] = {
 	descript = {
 		{ "Neutral Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Neutral property damage resistance increased" }
+		{ "Neutral property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_WATER] = {
@@ -4333,7 +4333,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_WATER] = {
 	descript = {
 		{ "Water Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Water property damage resistance increased" }
+		{ "Water property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_GROUND] = {
@@ -4342,7 +4342,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_GROUND] = {
 	descript = {
 		{ "Earth Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Earth property damage resistance increased" }
+		{ "Earth property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_FIRE] = {
@@ -4351,7 +4351,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_FIRE] = {
 	descript = {
 		{ "Fire Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Fire property damage resistance increased" }
+		{ "Fire property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_WIND] = {
@@ -4360,7 +4360,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_WIND] = {
 	descript = {
 		{ "Wind Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Wind property damage resistance increased" }
+		{ "Wind property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_POISON] = {
@@ -4369,7 +4369,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_POISON] = {
 	descript = {
 		{ "Poison Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Poison property damage resistance increased" }
+		{ "Poison property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_SAINT] = {
@@ -4378,7 +4378,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_SAINT] = {
 	descript = {
 		{ "Holy Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Holy property damage resistance increased" }
+		{ "Holy property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_DARKNESS] = {
@@ -4387,7 +4387,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_DARKNESS] = {
 	descript = {
 		{ "Shadow Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Shadow property damage resistance increased" }
+		{ "Shadow property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_TELEKINESIS] = {
@@ -4396,7 +4396,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_TELEKINESIS] = {
 	descript = {
 		{ "Ghost Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Ghost property damage resistance increased" }
+		{ "Ghost property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_UNDEAD] = {
@@ -4405,7 +4405,7 @@ StateIconList[EFST_IDs.EFST_RESIST_PROPERTY_UNDEAD] = {
 	descript = {
 		{ "Undead Resistance Up", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Undead property damage resistance increased" }
+		{ "Undead property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_EP16_DEF] = {
@@ -4873,7 +4873,7 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_TUESDAY] = {
 		{ "Boost Attribute", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Damage to Earth property monsters increased" },
-		{ "Fire property damage resistance increased" }
+		{ "Fire property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CHUSEOK_WEEKEND] = {
@@ -4883,7 +4883,7 @@ StateIconList[EFST_IDs.EFST_CHUSEOK_WEEKEND] = {
 		{ "Boost Attribute", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Damage to Neutral property monsters increased" },
-		{ "Neutral property damage resistance increased" }
+		{ "Neutral property resistance increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ATK_POPCORN] = {
@@ -5181,10 +5181,10 @@ StateIconList[EFST_IDs.EFST_MISTY_FROST] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{ "Freezing", COLOR_TITLE_DEBUFF },
-		{ "%s", COLOR_TIME },		
+		{ "%s", COLOR_TIME },
 		{ "Hard DEF, Movement Speed, and ASPD decreased" },
 		{ "Fixed Cast Time increased" },
-		{ "Received damage from Jack Frost increased"}
+		{ "Damage taken from Jack Frost increased"}
 	}
 }
 StateIconList[EFST_IDs.EFST_MAGIC_POISON] = {
@@ -5193,7 +5193,7 @@ StateIconList[EFST_IDs.EFST_MAGIC_POISON] = {
 	descript = {
 		{ "Magic Poison", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "All property damage resistance -50%" }
+		{ "All property resistance -50%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_HELLS_PLANT_ARMOR] = {
@@ -5265,7 +5265,7 @@ StateIconList[EFST_IDs.EFST_SHIELDSPELL] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "Shield Spell New?", COLOR_TITLE_BUFF },
+		{ "Shield Spell", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Magic Shield effect" }
 	}
@@ -6222,6 +6222,26 @@ StateIconList[EFST_IDs.EFST_2011RWC_SCROLL] = {
 		{ " under physical or magical attacks" },
 	}
 }
+StateIconList[EFST_IDs.EFST_BEEF_RIB_STEW] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Braised Short Ribs", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Variable Cast Time decreased" },
+		{ "SP consumption decreased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_PORK_RIB_STEW] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Braised Spare Ribs", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ASPD increased" },
+		{ "SP consumption decreased" }
+	}
+}
 StateIconList[EFST_IDs.EFST_INFINITY_DRINK] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
@@ -6308,8 +6328,8 @@ StateIconList[EFST_IDs.EFST_FIRE_CLOAK_OPTION] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{ "Fire Cloak", COLOR_TITLE_BUFF },
-		{ "Fire property damage resistance +100%" },
-		{ "Water property damage resistance -100%" }
+		{ "Fire property resistance +100%" },
+		{ "Water property resistance -100%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AQUAPLAY_OPTION] = {
@@ -6358,8 +6378,8 @@ StateIconList[EFST_IDs.EFST_WATER_DROP_OPTION] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{ "Water Drop", COLOR_TITLE_BUFF },
-		{ "Water property damage resistance +100%" },
-		{ "Wind property damage resistance -100%" }
+		{ "Water property resistance +100%" },
+		{ "Wind property resistance -100%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_WATER_BARRIER] = {
@@ -6418,8 +6438,8 @@ StateIconList[EFST_IDs.EFST_WIND_CURTAIN_OPTION] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{ "Wind Curtain", COLOR_TITLE_BUFF },
-		{ "Wind property damage resistance +100%" },
-		{ "Earth property damage resistance -100%" }
+		{ "Wind property resistance +100%" },
+		{ "Earth property resistance -100%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ZEPHYR] = {
@@ -6475,8 +6495,8 @@ StateIconList[EFST_IDs.EFST_STONE_SHIELD_OPTION] = {
 	posTimeLimitStr = 2,
 	descript = {
 		{ "Stone Shield", COLOR_TITLE_BUFF },
-		{ "Earth property damage resistance +100%" },
-		{ "Fire property damage resistance -100%" }
+		{ "Earth property resistance +100%" },
+		{ "Fire property resistance -100%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_POWER_OF_GAIA] = {
@@ -6506,8 +6526,8 @@ StateIconList[EFST_IDs.EFST_FLAMEARMOR_OPTION] = {
 	descript = {
 		{ "Flame Armor", COLOR_TITLE_BUFF },
 		{ "Armor property set to Fire" },
-		{ "Fire property damage resistance +100%" },
-		{ "Water property damage resistance -30%" }
+		{ "Fire property resistance +100%" },
+		{ "Water property resistance -30%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_COLD_FORCE_OPTION] = {
@@ -6526,8 +6546,8 @@ StateIconList[EFST_IDs.EFST_CRYSTAL_ARMOR_OPTION] = {
 	descript = {
 		{ "Crystal Armor", COLOR_TITLE_BUFF },
 		{ "Armor property set to Water" },
-		{ "Water property damage resistance +100%" },
-		{ "Wind property damage resistance -30%" }
+		{ "Water property resistance +100%" },
+		{ "Wind property resistance -30%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GRACE_BREEZE_OPTION] = {
@@ -6546,8 +6566,8 @@ StateIconList[EFST_IDs.EFST_EYES_OF_STORM_OPTION] = {
 	descript = {
 		{ "Eyes of the Storm", COLOR_TITLE_BUFF },
 		{ "Armor property set to Wind" },
-		{ "Wind property damage resistance +100%" },
-		{ "Earth property damage resistance -30%" }
+		{ "Wind property resistance +100%" },
+		{ "Earth property resistance -30%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_EARTH_CARE_OPTION] = {
@@ -6566,8 +6586,8 @@ StateIconList[EFST_IDs.EFST_STRONG_PROTECTION_OPTION] = {
 	descript = {
 		{ "Strong Protection", COLOR_TITLE_BUFF },
 		{ "Armor property set to Earth" },
-		{ "Earth property damage resistance +100%" },
-		{ "Fire property damage resistance -30%" }
+		{ "Earth property resistance +100%" },
+		{ "Fire property resistance -30%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_DEEP_POISONING_OPTION] = {
@@ -6586,8 +6606,8 @@ StateIconList[EFST_IDs.EFST_POISON_SHIELD_OPTION] = {
 	descript = {
 		{ "Poison Shield", COLOR_TITLE_BUFF },
 		{ "Armor property set to Poison" },
-		{ "Poison property damage resistance +100%" },
-		{ "Holy property damage resistance -30%" }
+		{ "Poison property resistance +100%" },
+		{ "Holy property resistance -30%" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ELEMENTAL_VEIL] = {
@@ -6597,4 +6617,13 @@ StateIconList[EFST_IDs.EFST_ELEMENTAL_VEIL] = {
 		{ "Elemental Veil", COLOR_TITLE_BUFF },
 		{ "Your High Spirit is invisible from monsters" }
 	}
+}
+StateIconList[EFST_IDs.EFST_SPELLFIST] = {
+    haveTimeLimit = 1,
+    posTimeLimitStr = 2,
+    descript = {
+        { "Spell Fist", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "Inflicting magic damage for physical attacks based on the chosen Bolt skill" }
+    }
 }
