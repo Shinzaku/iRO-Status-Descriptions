@@ -13,9 +13,9 @@ Standardized to:
 
 For descriptions, a particular order will be attempted:
 
-[Skill Name/Stat] damage/effect increased/reduced
+[Skill Name/Stat] damage/effect increased/decreased
 
-This is to ensure quick and standard readability to know when a skill is affected, vs a stat, and consistency in regards to how it is affected. For statuses that have a static effect (certain consumables), the description may have the amounts added in. Otherwise, generic text will be used as those values can vary depending on consumable, skill level, etc.
+This is to ensure quick and standard readability to know when a skill or stat is affected and how. For statuses that have a static effect (certain consumables), the description may have the amounts added in. Otherwise, generic text will be used as those values can vary depending on consumable, skill level, etc.
 
 New lines will be carried over and indented if the sentence seems too long 
 
