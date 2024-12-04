@@ -6242,6 +6242,24 @@ StateIconList[EFST_IDs.EFST_PORK_RIB_STEW] = {
 		{ "SP consumption decreased" }
 	}
 }
+StateIconList[EFST_IDs.EFST_PERIOD_RECEIVEITEM_2ND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Item Drop Rate Up", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Item Drop Rate +50%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_PERIOD_PLUSEXP_2ND] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "EXP Up", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Received EXP +50%" }
+	}
+}
 StateIconList[EFST_IDs.EFST_INFINITY_DRINK] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
