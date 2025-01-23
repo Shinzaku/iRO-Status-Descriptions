@@ -6645,3 +6645,19 @@ StateIconList[EFST_IDs.EFST_SPELLFIST] = {
         { "Inflicting magic damage for physical attacks based on the chosen Bolt skill" }
     }
 }
+StateIconList[EFST_IDs.EFST_CURSE_R_CUBE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Curse of Red Cube", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
+StateIconList[EFST_IDs.EFST_CURSE_B_CUBE] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Curse of Blue Cube", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME }
+	}
+}
