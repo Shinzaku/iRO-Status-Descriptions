@@ -6661,3 +6661,41 @@ StateIconList[EFST_IDs.EFST_CURSE_B_CUBE] = {
 		{ "%s", COLOR_TIME }
 	}
 }
+StateIconList[EFST_IDs.EFST_ABR_BATTLE_WARIOR] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "ABR: Battle Warrior", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "Battle Warrior minion summoned" },
+		{ "Power Swing damage increased" }
+    }
+}
+StateIconList[EFST_IDs.EFST_ABR_DUAL_CANNON] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "ABR: Dual Cannon", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "Dual Cannon minion summoned" },
+		{ "Knuckle Boost, Vulcan Arm, and Arm Cannon attacks twice" }
+    }
+}
+StateIconList[EFST_IDs.EFST_ABR_MOTHER_NET] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "ABR: Mother Net", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "Mother Net minion summoned" },
+    }
+}
+StateIconList[EFST_IDs.EFST_ABR_INFINITY] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "ABR: Infinity", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "Infinity minion summoned" },
+    }
+}

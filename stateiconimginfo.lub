@@ -498,6 +498,10 @@ StateIconImgList = {
 		[EFST_IDs.EFST_DEEP_POISONING_OPTION] = "needle_of_paralyze.tga",
 		[EFST_IDs.EFST_POISON_SHIELD_OPTION] = "needle_of_paralyze.tga",
 		[EFST_IDs.EFST_ELEMENTAL_VEIL] = "EFST_SHADOW_CLOCK.tga",
-		[EFST_IDs.EFST_SPELLFIST] = "��Ż����.tga",
+		[EFST_IDs.EFST_SPELLFIST] = "efst_spellfist.tga",
+		[EFST_IDs.EFST_ABR_BATTLE_WARIOR] = "efst_abr_battle_warrior.tga",
+		[EFST_IDs.EFST_ABR_DUAL_CANNON] = "efst_abr_dual_cannon.tga",
+		[EFST_IDs.EFST_ABR_MOTHER_NET] = "efst_abr_mother_net.tga",
+		[EFST_IDs.EFST_ABR_INFINITY] = "efst_abr_infinity.tga",
 	}
 }
