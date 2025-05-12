@@ -1,5 +1,7 @@
 # iRO-Status-Descriptions
 
+*Up to date as of May 6, 2025 maintenance
+
 In iRO today, there are a number of statuses that are either inconsistent in formatting, missing a description or title, or have wrong information.
 Example:
 
