@@ -1,6 +1,5 @@
 # iRO-Status-Descriptions
-
-*Up to date as of May 6, 2025 maintenance
+__Up to date as of May 6, 2025 maintenance__
 
 In iRO today, there are a number of statuses that are either inconsistent in formatting, missing a description or title, or have wrong information.
 Example:
@@ -23,6 +22,6 @@ New lines will be carried over and indented if the sentence seems too long
 
 ![status-goal](https://github.com/user-attachments/assets/b642f79c-b9e7-4d1b-b26d-5290ed29504d)
 
-**
-You will need a GRF Editor to manually merge the releases.
-**
+If I am missing a status description, please open an issue and I'll attempt to add it to the next release. There are a number of effects that have an EFST id but don't have an icon and description in the game files.
+
+**You will need a GRF Editor to manually merge the releases.**
