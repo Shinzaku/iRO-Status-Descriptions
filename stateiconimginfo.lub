@@ -94,7 +94,8 @@ StateIconImgList = {
 		[EFST_IDs.EFST_GROUNDGRAVITY] = "EFST_GROUNDGRAVITY.tga",
 		[EFST_IDs.EFST_NIGHTMARE] = "EFST_NIGHTMARE.tga",
 		[EFST_IDs.EFST_CURSE_R_CUBE] = "EFST_Curse_R_Cube.tga",
-		[EFST_IDs.EFST_CURSE_B_CUBE] = "EFST_Curse_B_Cube.tga"
+		[EFST_IDs.EFST_CURSE_B_CUBE] = "EFST_Curse_B_Cube.tga",
+		[EFST_IDs.EFST_KILLING_AURA] = "Å©¸²Áð¸¶Ä¿.tga",
 	},
 	[PRIORITY_BLUE] = {
 		[EFST_IDs.EFST_ATTHASTE_CASH] = "ASPDCASH.TGA",
@@ -503,5 +504,6 @@ StateIconImgList = {
 		[EFST_IDs.EFST_ABR_DUAL_CANNON] = "efst_abr_dual_cannon.tga",
 		[EFST_IDs.EFST_ABR_MOTHER_NET] = "efst_abr_mother_net.tga",
 		[EFST_IDs.EFST_ABR_INFINITY] = "efst_abr_infinity.tga",
+		[EFST_IDs.EFST_EXPLOSIONSPIRITS] = "Æø±â.tga",
 	}
 }

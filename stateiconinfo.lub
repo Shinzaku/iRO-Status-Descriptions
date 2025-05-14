@@ -1548,7 +1548,7 @@ StateIconList[EFST_IDs.EFST_MAGNIFICAT] = {
 	descript = {
 		{ "Magnificat", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "SP Recovery increased" }
+		{ "SP Recovery Rate increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ATTHASTE_POTION1] = {
@@ -2839,7 +2839,7 @@ StateIconList[EFST_IDs.EFST_PROPERTYDARK] = {
 	descript = {
 		{ "Property Dark", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Armor property set to Shadow" }
+		{ "Weapon property set to Shadow" }
 	}
 }
 StateIconList[EFST_IDs.EFST_REFLECTSHIELD] = {
@@ -6698,4 +6698,42 @@ StateIconList[EFST_IDs.EFST_ABR_INFINITY] = {
         { "%s", COLOR_TIME },
         { "Infinity minion summoned" },
     }
+}
+StateIconList[EFST_IDs.EFST_SHINKIROU_CALL] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "Shinkirou Call", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "" },
+    }
+}
+StateIconList[EFST_IDs.EFST_SBUNSHIN] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "Bunshin", COLOR_TITLE_BUFF },
+        { "%s", COLOR_TIME },
+        { "" },
+    }
+}
+StateIconList[EFST_IDs.EFST_KILLING_AURA] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+    descript = {
+        { "Killing Aura", COLOR_TITLE_DEBUFF },
+        { "%s", COLOR_TIME },
+        { "Receiving unavoidable damage over time" },
+		{ "Land Protector, FLEE, and DEF do not affect this" }
+    }
+}
+StateIconList[EFST_IDs.EFST_EXPLOSIONSPIRITS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Fury", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "CRIT increased" },
+		{ "SP Recovery Rate decreased" }
+	}
 }
