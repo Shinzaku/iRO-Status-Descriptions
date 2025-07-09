@@ -241,7 +241,13 @@ StateIconImgList = {
 		[EFST_IDs.EFST_BATH_FOAM_C] = "Bath_Foam_C.tga",
 		[EFST_IDs.EFST_AROMA_OIL] = "Aroma_Oil.tga",
 		[EFST_IDs.EFST_C_BUFF_1] = "ForceBooster.tga",
-		[EFST_IDs.EFST_C_BUFF_2] = "SpeedBooster.tga"
+		[EFST_IDs.EFST_C_BUFF_2] = "SpeedBooster.tga",
+		[EFST_IDs.EFST_ALL_T_STAT] = "신의뜻.TGA",
+		[EFST_IDs.EFST_P_ATK_PLUS] = "add_atk_potion.TGA",
+		[EFST_IDs.EFST_S_MATK_PLUS] = "add_matk_potion.TGA",
+		[EFST_IDs.EFST_RESIST_PLUS] = "물리방어포션.TGA",
+		[EFST_IDs.EFST_C_RATE_PLUS] = "폭기.tga",
+		[EFST_IDs.EFST_PVP_DUN_BUFF] = "ALL_RAY_OF_PROTECTION.TGA"
 	},
 	[PRIORITY_GREEN] = {
 		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.TGA",

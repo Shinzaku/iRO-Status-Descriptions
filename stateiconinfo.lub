@@ -6152,10 +6152,10 @@ StateIconList[EFST_IDs.EFST_BREAKINGLIMIT] = {
 	descript = {
 		{ "Breaking Limit", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Double Bowling Bash damage +50%" },
-		{ "Mega Sonic Blow damage +100%" },
-		{ "Shield Chain Rush damage +50%" },
-		{ "Spiral Pierce Max damage +100%" },
+		{ "Double Bowling Bash damage increased" },
+		{ "Mega Sonic Blow damage increased" },
+		{ "Shield Chain Rush damage increased" },
+		{ "Spiral Pierce Max damage increased" },
 	}
 }
 StateIconList[EFST_IDs.EFST_RULEBREAK] = {
@@ -6164,12 +6164,12 @@ StateIconList[EFST_IDs.EFST_RULEBREAK] = {
 	descript = {
 		{ "Rule Break", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "Meteor Storm Buster and Ground damage +50%" },
-		{ "Jupitel Thunder Storm damage +70%" },
-		{ "Jack Frost Nova damage +70%" },
-		{ "Hell's Drive damage +70%" },
-		{ "Ground Gravitation damage +50%" },
-		{ "Napalm Vulcan Strike damage +100%" },
+		{ "Meteor Storm Buster and Ground damage increased" },
+		{ "Jupitel Thunder Storm damage increased" },
+		{ "Jack Frost Nova damage increased" },
+		{ "Hell's Drive damage increased" },
+		{ "Ground Gravitation damage increased" },
+		{ "Napalm Vulcan Strike damage increased" },
 	}
 }
 StateIconList[EFST_IDs.EFST_SHADOW_CLOCK] = {
@@ -6735,5 +6735,60 @@ StateIconList[EFST_IDs.EFST_EXPLOSIONSPIRITS] = {
 		{ "%s", COLOR_TIME },
 		{ "CRIT increased" },
 		{ "SP Recovery Rate decreased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_ALL_T_STAT] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosia Purple Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "All stats increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_P_ATK_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosia Red Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "P.ATK increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_S_MATK_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosia Blue Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "S.MATK increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_RATE_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosia Yellow Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "C.Rate increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_RESIST_PLUS] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Herosia White Herb Jam", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "RES and MRES increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_PVP_DUN_BUFF] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "The protection of the Lord of Herosia", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Physical and magic damage increased" },
+		{ "against Herosia Dungeon monsters" }
 	}
 }
