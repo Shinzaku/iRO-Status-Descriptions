@@ -247,7 +247,13 @@ StateIconImgList = {
 		[EFST_IDs.EFST_S_MATK_PLUS] = "add_matk_potion.TGA",
 		[EFST_IDs.EFST_RESIST_PLUS] = "물리방어포션.TGA",
 		[EFST_IDs.EFST_C_RATE_PLUS] = "폭기.tga",
-		[EFST_IDs.EFST_PVP_DUN_BUFF] = "ALL_RAY_OF_PROTECTION.TGA"
+		[EFST_IDs.EFST_PVP_DUN_BUFF] = "ALL_RAY_OF_PROTECTION.TGA",
+		[EFST_IDs.EFST_CONTENTS_15] = "icon08.TGA",
+		[EFST_IDs.EFST_CONTENTS_16] = "glastheim_atk.TGA",
+		[EFST_IDs.EFST_CONTENTS_17] = "i_체이스힘.TGA",
+		[EFST_IDs.EFST_CONTENTS_18] = "워머.TGA",
+		[EFST_IDs.EFST_CONTENTS_19] = "mvpcard_taogunka.TGA",
+		[EFST_IDs.EFST_CONTENTS_20] = "i_bunsin.TGA"
 	},
 	[PRIORITY_GREEN] = {
 		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.TGA",
