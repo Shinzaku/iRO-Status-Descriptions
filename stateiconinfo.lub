@@ -6302,8 +6302,7 @@ StateIconList[EFST_IDs.EFST_SKE] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_PYROTECHNIC_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Pyrotechnic", COLOR_TITLE_BUFF },
 		{ "ATK +60" },
@@ -6311,8 +6310,7 @@ StateIconList[EFST_IDs.EFST_PYROTECHNIC_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_HEATER_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Heater", COLOR_TITLE_BUFF },
 		{ "ATK +120" },
@@ -6323,8 +6321,7 @@ StateIconList[EFST_IDs.EFST_HEATER_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_TROPIC_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Tropic", COLOR_TITLE_BUFF },
 		{ "ATK +180" },
@@ -6334,16 +6331,14 @@ StateIconList[EFST_IDs.EFST_TROPIC_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_CIRCLE_OF_FIRE_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Circle of Fire", COLOR_TITLE_BUFF },
 		{ "Inflicting Fire property damage to enemies in a 3x3 area" }
 	}
 }
 StateIconList[EFST_IDs.EFST_FIRE_CLOAK_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Fire Cloak", COLOR_TITLE_BUFF },
 		{ "Fire property resistance +100%" },
@@ -6351,8 +6346,7 @@ StateIconList[EFST_IDs.EFST_FIRE_CLOAK_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_AQUAPLAY_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Aquaplay", COLOR_TITLE_BUFF },
 		{ "MATK +40" },
@@ -6360,8 +6354,7 @@ StateIconList[EFST_IDs.EFST_AQUAPLAY_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_COOLER_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Cooler", COLOR_TITLE_BUFF },
 		{ "MATK +80" },
@@ -6372,8 +6365,7 @@ StateIconList[EFST_IDs.EFST_COOLER_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_CHILLY_AIR_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Chilly Air", COLOR_TITLE_BUFF },
 		{ "MATK +120" },
@@ -6383,8 +6375,7 @@ StateIconList[EFST_IDs.EFST_CHILLY_AIR_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_WATER_SCREEN_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Water Screen", COLOR_TITLE_BUFF },
 		{ "Recovering 1000 HP every 10 seconds" },
@@ -6392,8 +6383,7 @@ StateIconList[EFST_IDs.EFST_WATER_SCREEN_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_WATER_DROP_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Water Drop", COLOR_TITLE_BUFF },
 		{ "Water property resistance +100%" },
@@ -6401,8 +6391,7 @@ StateIconList[EFST_IDs.EFST_WATER_DROP_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_WATER_BARRIER] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Water Barrier", COLOR_TITLE_BUFF },
 		{ "Damage taken -20%" },
@@ -6410,8 +6399,7 @@ StateIconList[EFST_IDs.EFST_WATER_BARRIER] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_GUST_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Gust", COLOR_TITLE_BUFF },
 		{ "ASPD +5" },
@@ -6420,8 +6408,7 @@ StateIconList[EFST_IDs.EFST_GUST_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_BLAST_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Blast Mine", COLOR_TITLE_BUFF },
 		{ "ASPD +5" },
@@ -6432,8 +6419,7 @@ StateIconList[EFST_IDs.EFST_BLAST_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_WILD_STORM_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Wild Storm", COLOR_TITLE_BUFF },
 		{ "ASPD +5" },
@@ -6444,16 +6430,14 @@ StateIconList[EFST_IDs.EFST_WILD_STORM_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_WIND_STEP_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Wind Step", COLOR_TITLE_BUFF },
 		{ "Movement Speed increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_WIND_CURTAIN_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Wind Curtain", COLOR_TITLE_BUFF },
 		{ "Wind property resistance +100%" },
@@ -6461,8 +6445,7 @@ StateIconList[EFST_IDs.EFST_WIND_CURTAIN_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_ZEPHYR] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Zephyr", COLOR_TITLE_BUFF },
 		{ "Immune to ranged damage" },
@@ -6470,8 +6453,7 @@ StateIconList[EFST_IDs.EFST_ZEPHYR] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_PETROLOGY_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Petrology", COLOR_TITLE_BUFF },
 		{ "Max HP +5%" },
@@ -6479,8 +6461,7 @@ StateIconList[EFST_IDs.EFST_PETROLOGY_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_CURSED_SOIL_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Cursed Soil", COLOR_TITLE_BUFF },
 		{ "Max HP +10%" },
@@ -6490,8 +6471,7 @@ StateIconList[EFST_IDs.EFST_CURSED_SOIL_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_UPHEAVAL_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Upheaval", COLOR_TITLE_BUFF },
 		{ "Max HP +15%" },
@@ -6500,8 +6480,7 @@ StateIconList[EFST_IDs.EFST_UPHEAVAL_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_SOLID_SKIN_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Solid Skin", COLOR_TITLE_BUFF },
 		{ "Max HP +2000" },
@@ -6509,8 +6488,7 @@ StateIconList[EFST_IDs.EFST_SOLID_SKIN_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_STONE_SHIELD_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Stone Shield", COLOR_TITLE_BUFF },
 		{ "Earth property resistance +100%" },
@@ -6518,8 +6496,7 @@ StateIconList[EFST_IDs.EFST_STONE_SHIELD_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_POWER_OF_GAIA] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Power of Gaia", COLOR_TITLE_BUFF },
 		{ "Immune to Bleeding and Stone" },
@@ -6529,8 +6506,7 @@ StateIconList[EFST_IDs.EFST_POWER_OF_GAIA] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_FLAMETECHNIC_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Flame Technique", COLOR_TITLE_BUFF },
 		{ "Fire Bolt MATK +100%" },
@@ -6539,8 +6515,7 @@ StateIconList[EFST_IDs.EFST_FLAMETECHNIC_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_FLAMEARMOR_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Flame Armor", COLOR_TITLE_BUFF },
 		{ "Armor property set to Fire" },
@@ -6549,8 +6524,7 @@ StateIconList[EFST_IDs.EFST_FLAMEARMOR_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_COLD_FORCE_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Cold Force", COLOR_TITLE_BUFF },
 		{ "Cold Bolt MATK +100%" },
@@ -6559,8 +6533,7 @@ StateIconList[EFST_IDs.EFST_COLD_FORCE_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_CRYSTAL_ARMOR_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Crystal Armor", COLOR_TITLE_BUFF },
 		{ "Armor property set to Water" },
@@ -6569,8 +6542,7 @@ StateIconList[EFST_IDs.EFST_CRYSTAL_ARMOR_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_GRACE_BREEZE_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Grace Breeze", COLOR_TITLE_BUFF },
 		{ "Lightning Bolt MATK +100%" },
@@ -6579,8 +6551,7 @@ StateIconList[EFST_IDs.EFST_GRACE_BREEZE_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_EYES_OF_STORM_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Eyes of the Storm", COLOR_TITLE_BUFF },
 		{ "Armor property set to Wind" },
@@ -6589,8 +6560,7 @@ StateIconList[EFST_IDs.EFST_EYES_OF_STORM_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_EARTH_CARE_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Earth Care", COLOR_TITLE_BUFF },
 		{ "Earth Spike MATK +80%" },
@@ -6599,8 +6569,7 @@ StateIconList[EFST_IDs.EFST_EARTH_CARE_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_STRONG_PROTECTION_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Strong Protection", COLOR_TITLE_BUFF },
 		{ "Armor property set to Earth" },
@@ -6609,8 +6578,7 @@ StateIconList[EFST_IDs.EFST_STRONG_PROTECTION_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_DEEP_POISONING_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Deep Poisoning", COLOR_TITLE_BUFF },
 		{ "Killing Cloud MATK +50%" },
@@ -6619,8 +6587,7 @@ StateIconList[EFST_IDs.EFST_DEEP_POISONING_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_POISON_SHIELD_OPTION] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Poison Shield", COLOR_TITLE_BUFF },
 		{ "Armor property set to Poison" },
@@ -6629,8 +6596,7 @@ StateIconList[EFST_IDs.EFST_POISON_SHIELD_OPTION] = {
 	}
 }
 StateIconList[EFST_IDs.EFST_ELEMENTAL_VEIL] = {
-	haveTimeLimit = 1,
-	posTimeLimitStr = 2,
+	haveTimeLimit = 0,
 	descript = {
 		{ "Elemental Veil", COLOR_TITLE_BUFF },
 		{ "Your High Spirit is invisible from monsters" }
@@ -6852,4 +6818,3 @@ StateIconList[EFST_IDs.EFST_CONTENTS_20] = {
 		{ "ASPD increased" }
 	}
 }
-	
