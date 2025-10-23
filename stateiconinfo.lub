@@ -692,14 +692,14 @@ StateIconList[EFST_IDs.EFST_GUARD_STANCE] = {
 	descript = {
 		{ "Guard Stance", COLOR_TITLE_BUFF },
 		{ "DEF increased" },
-		{ "ATK increased" }
+		{ "ATK decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_ATTACK_STANCE] = {
 	descript = {
 		{ "Attack Stance", COLOR_TITLE_BUFF },
 		{ "ATK increased" },
-		{ "DEF increased" }
+		{ "DEF decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GUARDIAN_S] = {
@@ -1723,7 +1723,7 @@ StateIconList[EFST_IDs.EFST_TRUESIGHT] = {
 	descript = {
 		{ "True Sight", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats +5" },
+		{ "All Basic Stats +5" },
 		{ "Damage, Hit, and CRIT increased" }
 	}
 }
@@ -2256,7 +2256,7 @@ StateIconList[EFST_IDs.EFST_HARMONIZE] = {
 	descript = {
 		{ "Harmonize", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats decreased" }
+		{ "All Basic Stats decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_CHASEWALK2] = {
@@ -2346,7 +2346,7 @@ StateIconList[EFST_IDs.EFST_INSPIRATION] = {
 	descript = {
 		{ "Inspiration", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats, ATK, MATK, Hit, and Max HP increased" },
+		{ "All Basic Stats, ATK, MATK, Hit, and Max HP increased" },
 		{ "Immune to certain debuffs" },
 		{ "Losing HP and SP over time" }
 	}
@@ -2586,7 +2586,7 @@ StateIconList[EFST_IDs.EFST_MARIONETTE] = {
 	descript = {
 		{ "Marionette Control", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats increased" }
+		{ "All Basic Stats increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_WZ_SIGHTBLASTER] = {
@@ -2970,7 +2970,7 @@ StateIconList[EFST_IDs.EFST_STOMACHACHE] = {
 	descript = {
 		{ "Stomachache", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats decreased" },
+		{ "All Basic Stats decreased" },
 		{ "Movement Speed decreased" },
 		{ "Forced to sit down every 10 seconds" },
 		{ "Losing SP every 10 seconds" }
@@ -3050,7 +3050,7 @@ StateIconList[EFST_IDs.EFST_2011RWC] = {
 	descript = {
 		{ "Firecracker", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats +3" },
+		{ "All Basic Stats +3" },
 		{ "ATK and MATK increased" }
 	}
 }
@@ -3568,7 +3568,7 @@ StateIconList[EFST_IDs.EFST_FULL_THROTTLE] = {
 		{ "Full Throttle", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
 		{ "Movement Speed +100%" },
-		{ "All Stats +20%" },
+		{ "All Basic Stats +20%" },
 		{ "Losing SP over time" }
 	}
 }
@@ -4556,7 +4556,7 @@ StateIconList[EFST_IDs.EFST_CHEERUP] = {
 	descript = {
 		{ "Go! Mom and Dad.", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats +3" }
+		{ "All Basic Stats +3" }
 	}
 }
 StateIconList[EFST_IDs.EFST_AID_PERIOD_RECEIVEITEM] = {
@@ -4668,7 +4668,7 @@ StateIconList[EFST_IDs.EFST_RINGNIBELUNGEN] = {
 		{ "%s", COLOR_TIME },
 		{ "ATK, MATK, and ASPD +20%" },
 		{ "Max HP and Max SP +30%" },
-		{ "All Stats +15" },
+		{ "All Basic Stats +15" },
 		{ "Hit and Flee +50" },
 		{ "SP consumption -30%" },
 		{ "HP and SP Recovery +100%" }
@@ -4987,7 +4987,7 @@ StateIconList[EFST_IDs.EFST_UNIVERSESTANCE] = {
 	descript = {
 		{ "Universal Stance", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats increased" },
+		{ "All Basic Stats increased" },
 		{ "Universal skills enabled" },
 		{ "Solar skills enabled" },
 		{ "Lunar skills enabled" },
@@ -5162,9 +5162,9 @@ StateIconList[EFST_IDs.EFST_ALL_STAT_DOWN] = {
 	haveTimeLimit = 1,
 	posTimeLimitStr = 2,
 	descript = {
-		{ "All Stats Decreased", COLOR_TITLE_DEBUFF },
+		{ "All Basic Stats Decreased", COLOR_TITLE_DEBUFF },
 		{ "%s", COLOR_TIME },
-		{ "All Stats decreased" }
+		{ "All Basic Stats decreased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_GRADUAL_GRAVITY] = {
@@ -6709,7 +6709,7 @@ StateIconList[EFST_IDs.EFST_ALL_T_STAT] = {
 	descript = {
 		{ "Herosia Purple Herb Jam", COLOR_TITLE_BUFF },
 		{ "%s", COLOR_TIME },
-		{ "All stats increased" }
+		{ "All Basic Stats increased" }
 	}
 }
 StateIconList[EFST_IDs.EFST_P_ATK_PLUS] = {
@@ -6816,5 +6816,17 @@ StateIconList[EFST_IDs.EFST_CONTENTS_20] = {
 		{ "%s", COLOR_TIME },
 		{ "Variable Cast Time decreased" },
 		{ "ASPD increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_CONTENTS_22] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Anniversary Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "All Basic Stats +15" },
+		{ "All Talent Stats +15" },
+		{ "Physical and magical damage against" },
+		{ "	enemies of all properties +12%" }
 	}
 }
