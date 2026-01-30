@@ -1,5 +1,6 @@
 # iRO-Status-Descriptions
 _Latest version up to date as of January 29th, 2026 maintenance_
+*Not every patch needs updates, as they don't always change these
 
 In iRO today, there are a number of statuses that are either inconsistent in formatting, missing a description or title, or have wrong information.
 Example:
