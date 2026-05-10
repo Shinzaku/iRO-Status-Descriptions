@@ -7033,3 +7033,21 @@ StateIconList[EFST_IDs.EFST_WARM_SHIELD] = {
 		{ "Shields the Frost Storm" }
 	}
 }
+StateIconList[EFST_IDs.EFST_C_BUFF_16] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "[Collab] Delicious Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Physical and Magical damage increased against Normal and Boss enemies" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_17] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "[Collab] Fresh Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Physical and Magical damage increased against all races (excluding Players)" }
+	}
+}

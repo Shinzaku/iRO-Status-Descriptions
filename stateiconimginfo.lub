@@ -259,7 +259,9 @@ StateIconImgList = {
 		[EFST_IDs.EFST_CONTENTS_19] = "mvpcard_taogunka.TGA",
 		[EFST_IDs.EFST_CONTENTS_20] = "i_bunsin.TGA",
 		[EFST_IDs.EFST_CONTENTS_22] = "eldicastes.tga",
-		[EFST_IDs.EFST_WARM_SHIELD] = "ALL_RAY_OF_PROTECTION.TGA"
+		[EFST_IDs.EFST_WARM_SHIELD] = "ALL_RAY_OF_PROTECTION.TGA",
+		[EFST_IDs.EFST_C_BUFF_16] = "mvpcard_mistress.TGA",
+		[EFST_IDs.EFST_C_BUFF_17] = "glastheim_atk.TGA"
 	},
 	[PRIORITY_GREEN] = {
 		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.TGA",
