@@ -7051,3 +7051,13 @@ StateIconList[EFST_IDs.EFST_C_BUFF_17] = {
 		{ "Physical and Magical damage increased against all races (excluding Players)" }
 	}
 }
+StateIconList[EFST_IDs.EFST_BLOCK] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Blocked", COLOR_TITLE_DEBUFF },
+		{ "%s", COLOR_TIME },
+		{ "EXP from monsters disabled" },
+		{ "Item drops from monsters disabled" }
+	}
+}
