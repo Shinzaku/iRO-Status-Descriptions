@@ -7061,3 +7061,63 @@ StateIconList[EFST_IDs.EFST_BLOCK] = {
 		{ "Item drops from monsters disabled" }
 	}
 }
+StateIconList[EFST_IDs.EFST_C_BUFF_16] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "[Collab] Delicious Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Physical/Magical damage against Normal enemies increased" },
+		{ "Physical/Magical damage against Boss enemies increased" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_17] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "[Collab] Fresh Buff", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Physical/Magical damage against all races increased" },
+		{ "(Excluding Players)" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_3] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Resistant Feather", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "Max HP +5%" },
+		{ "Max SP +5%" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_4] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Light Feather", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "FLEE +25" },
+		{ "HIT +25" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_5] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Glamorous Feather", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "CRI +10" },
+		{ "ASPD +1" }
+	}
+}
+StateIconList[EFST_IDs.EFST_C_BUFF_6] = {
+	haveTimeLimit = 1,
+	posTimeLimitStr = 2,
+	descript = {
+		{ "Massive Feather", COLOR_TITLE_BUFF },
+		{ "%s", COLOR_TIME },
+		{ "ATK +7%" },
+		{ "MATK +7%" }
+	}
+}
